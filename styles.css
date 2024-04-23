@@ -1,0 +1,68 @@
+.bordered {
+    border: 1px solid rgb(175, 170, 161);
+}
+
+/* Стилі для заголовка */
+.title {
+    height: 90px; /* Встановлює висоту заголовка */
+
+    display: flex; /* Використовуємо flexbox для вирівнювання */
+    justify-content: center; /* Горизонтальне вирівнювання елементів по центру */
+    align-items: center; /* Вертикальне вирівнювання елементів по центру */
+    
+    font: bold 26px/1.375em "Fira Sans", sans-serif; /* Задаємо шрифт і розмір тексту */
+    font-family: Arial, Helvetica, sans-serif; /* Додаткові альтернативні шрифти */
+}
+
+/* Стилі для меню */
+.menu {
+    height: 37px; /* Встановлюємо висоту меню */
+
+    display: flex; /* Використовуємо flexbox для вирівнювання */
+    justify-content: center; /* Горизонтальне вирівнювання елементів по центру */
+    align-items: center; /* Вертикальне вирівнювання елементів по центру */
+
+    background-color: rgb(247,247,247); /* Задаємо колір фону меню */
+}
+
+/* Стилі для кожного пункту меню */
+.menu div {
+    margin: 0 10px; /* Задаємо відступи між пунктами меню */
+}
+
+.photos {
+    border: 1px solid rgb(175, 170, 161);
+    margin: 2px;
+    display: grid; /* Використовуємо flexbox для вирівнювання */
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки з однаковою шириною */
+
+
+}
+
+.blocks {
+    height: 10px;
+    border: 1px solid rgb(175, 170, 161);
+
+}
+
+.bigBlock {
+    height: 350px;
+    padding: 10px;
+}
+
+.smallBlock {
+    height: 50px;
+
+}
+
+.entryText {
+    /* margin-top: 5%;
+    margin-left: 5%; */
+    margin: 5%;
+}
+
+.imageForEntry {
+    width: auto;
+    height: 100%;
+    margin-left: 15%;
+}
