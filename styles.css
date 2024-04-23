@@ -46,7 +46,8 @@
 }
 
 .bigBlock {
-    height: 350px;
+    height: auto;
+    width: auto;
     padding: 10px;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .imageForEntry {
-    width: auto;
-    height: 100%;
+    width: 80%;
+    height: auto;
     margin-left: 15%;
 }
